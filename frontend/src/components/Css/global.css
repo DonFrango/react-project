@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+  .slider-wrap {
+    display: flex;
+    flex-direction: column; /* Arrange cards vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+  }
+  
+  .slider-item {
+    width: 530px;
+    padding: 20px 0 25px 30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column; /* Arrange content vertically */
+    align-items: flex-start; /* Align content to the left */
+    box-shadow: 0 4px 9px #f1f1f4;
+    margin-bottom: 20px; /* Adjust spacing between cards */
+    position: relative; /* Ensure the z-index works */
+    z-index: 2;
+  }
+  
+  /* Style for each card container */
+  .slider-item-container {
+    width: 530px;
+    margin: 10px; /* Adjust spacing between cards as needed */
+
+  }
+  
+  
+  /* Styles for card content */
+  .slider-item h4 {
+    color: #4a4545;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.18px;
+    line-height: 24px;
+    margin: 0;
+  }
+  
+  .slider-item p {
+    color: #696d74;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: 24px;
+    margin: 10px 0 0 0;
+  }
+  
+  .slider-item p:last-child {
+    margin-bottom: 20px; /* Add spacing between the last paragraph and the card bottom */
+  }
+  
+  .slider-item p.animation-card_content_city {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #696d74;
+  }
+  
+  .text-red {
+    color: #e53935!important;
+}
+
+.text-green {
+    color: #2cc56f!important;
+}
+
+.text-amber {
+    color: #ffc021!important;
+}
+
+.text-purple {
+    color: #ac66f5!important;
+}
+
+.text-cyan {
+    color: #00f3e7!important;
+}
+
+.text-pink {
+    color: #e91e63!important;
+}
